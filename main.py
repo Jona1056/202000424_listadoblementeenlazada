@@ -39,7 +39,9 @@ class lista:
             print("Lista vacia")
         else:
             aux = self.primero
+            print("lista Completa: ")
             while aux != None:
+              
                 print(aux.dato, end=" ")
                 aux = aux.siguiente
 
@@ -50,6 +52,7 @@ lista.agregar_dato(5)
 lista.agregar_dato(3)
 lista.agregar_dato(4)
 lista.mostrar_lista()
+print("\n")
 dato = int(input("Seleccione un numero: "))
 lista.mostrar_dato(dato)
 
